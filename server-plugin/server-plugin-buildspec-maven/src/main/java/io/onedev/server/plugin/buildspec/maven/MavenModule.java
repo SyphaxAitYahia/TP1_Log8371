@@ -13,6 +13,7 @@ import io.onedev.server.util.script.ScriptContribution;
  */
 public class MavenModule extends AbstractPluginModule {
 
+
 	@Override
 	protected void configure() {
 		super.configure();
