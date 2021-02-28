@@ -13,7 +13,6 @@ import io.onedev.server.util.script.ScriptContribution;
  */
 public class MavenModule extends AbstractPluginModule {
 
-
 	@Override
 	protected void configure() {
 		super.configure();
@@ -25,6 +24,7 @@ public class MavenModule extends AbstractPluginModule {
 
 			@Override
 			public GroovyScript getScript() {
+				//comment
 				GroovyScript script = new GroovyScript();
 				script.setName(MavenJobSuggestion.DETERMINE_DOCKER_IMAGE);
 				script.setContent(Lists.newArrayList("io.onedev.server.plugin.buildspec.maven.MavenJobSuggestion.determineDockerImage()"));
