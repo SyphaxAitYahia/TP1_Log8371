@@ -24,7 +24,7 @@ public class MavenModule extends AbstractPluginModule {
 
 			@Override
 			public GroovyScript getScript() {
-				//comment  hh parr f
+				//   comment  hh parr f
 				GroovyScript script = new GroovyScript();
 				script.setName(MavenJobSuggestion.DETERMINE_DOCKER_IMAGE);
 				script.setContent(Lists.newArrayList("io.onedev.server.plugin.buildspec.maven.MavenJobSuggestion.determineDockerImage()"));
