@@ -589,5 +589,9 @@
 		<flexmark.version>0.18.3</flexmark.version>
 		<groovy.version>3.0.7</groovy.version>
 		<servlet.version>3.1.0</servlet.version>
+		<sonar.projectKey>SyphaxAitYahia_TP1_Log8371</sonar.projectKey>
+		<sonar.moduleKey>${artifactId}</sonar.moduleKey> 
+  		<sonar.organization>syphaxaityahia</sonar.organization>
+ 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 </project>
